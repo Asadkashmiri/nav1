@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box1 {
+    width: 98%;
+    height: 65px;
+    color: white;
+    background-color: black;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list li {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+#buy {
+    width: 80px;
+    height: 40px;
+    color: rgb(123, 184, 123);
+    border: 1px solid rgb(123, 184, 123);
+    border-radius: 4px;
+}
+
+#discover {
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+.home2{
+    margin-right: 20px;
+}
+
+img {
+    width: 15px;
+    margin-right: 4px;
+    background-color: rgb(15, 2, 2);
+    margin-left: 20px;
+}
+
+#left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 36%;
+}
+
+
+
+
+
+#box2 {
+    width: 98%;
+    height: 65px;
+    color: white;
+    background-color: rgb(76, 68, 231);
+    margin: 15px auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#list2{
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}#list2 li{
+    display: inline-block;
+    width: 100px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+#box3 {
+    width: 98%;
+    height: 65px;
+    color: white;
+    background-color: rgb(3, 182, 149);
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+#list3{
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    align-items: center;
+}
+#list3 li{
+    display: inline-block;
+    width: 100px;
+text-align: center;
+}
+.ii3{
+    background-color: transparent;
+}
+#signin{
+    border: none;
+    width: 90px;
+    height: 40px;
+  color: white;
+  text-align: left;
+    background-color: rgb(54, 54, 222);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+#box4 {
+    width: 98%;
+    height: 65px;
+    color: white;
+    background-color: rgb(240, 23, 88);
+    margin: 10px auto;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+#img4{
+    margin: 2px 40px;
+}
